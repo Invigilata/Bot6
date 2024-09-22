@@ -7,9 +7,9 @@ from aiogram.dispatcher.filters import Text
 
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 
-from crud_functions import initiate_db, get_all_products, add_product  # Импортируем функции из crud_functions.py
+from crud_functions import initiate_db, get_all_products, add_product
 
-API_TOKEN = '7705325791:AAFMeqv8DKM1R7dLR0rabsGAFLlOHwO41uM'
+API_TOKEN = ''
 
 bot = Bot(token=API_TOKEN)
 storage = MemoryStorage()
